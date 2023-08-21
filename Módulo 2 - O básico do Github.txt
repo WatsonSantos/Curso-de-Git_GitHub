@@ -1,0 +1,11 @@
+#Clonar um repositório
+    1- Copiar o link do repositório no Github
+    2 - Utilizar o comando: git clone link-do-reposotótio-no-github
+
+#Atualizar o repositório Remoto
+    1 - dit add .
+    2 - git commit -m "seu commit"
+    3 - git push origin master/main 
+
+#Atualizar o reppositrio local
+    1 - Utilizar o comando : git pull 
