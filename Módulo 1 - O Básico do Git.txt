@@ -1,0 +1,30 @@
+##Configurações básicas iniciais
+
+1 - Congigurando quem está trabalhando no projeto e o nível do sistema:
+    - Se for paa todo mundo no computador: --system
+    - Se for para vc em todos os projetos do Git: --global
+    - Se for somente para este projeto: --local
+Configurando o para todos so projetos:
+--global user.name watsonsantos
+--global user.email watsontavares72@gmail.com
+
+*Listando as configurações: git config --global -l
+
+2 - Configurar o editor: git config --global ccore.editor vscode
+
+##Começando a versionar
+_ git init
+_ Para verificar o status dos arquivos: git status
+_ Para adicionar um determinado arquivo ao repositório local: git add nome-do-arquivo.extensão
+_ Para adicionar todos os arquivos/alterações ao repositório local: git add .
+_ Fazer o commit: git commit -m "adição do arquivo x"
+
+## Histórico dos arquivos criados
+
+_ Para ver os históricos: git log
+_ Capturar um estado de um arquivo baseando no seu commit:
+    1 - Utilizar o comando 'git init' para ver so histórico
+    2- Copiar o código do commit desejado
+    3 - Capturando o estado desejado: git checkout código do commit (Nesse momento, só se consegue ver no log o commit atual).
+    4 - A seguir, para voltar ao estado atual dos commit: git checkout master (ou main se for o caso). Assim pode-se ver todos históricos dos comites novamente.
+
