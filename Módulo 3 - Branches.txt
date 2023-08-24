@@ -1,0 +1,28 @@
+Ao criar um novo repositório a única branch é a Master
+
+- Devemos criar uma outrra branch e fazer os commites para esta nova branch.
+  Esta nova branch tem acesso aos commites da branch master antes da sua criação
+
+### Merge
+
+## Fast Foward
+      - Neste tipo de merge, a branch principal não recebeu nenhuma atualização nova e o que se faz é pegar todos os commits feitos na Nova branch e jogar na branch principal. Este commit ocorre de forma simples.
+      Após fazermos o merge, podemos excluir essa nov abranch se for o caso
+
+## Recursive strategy
+    - Neste caso, houve commit nas duas branches, e o git faz um novo comimite do merge mesclando as duas branches mas sem nenhum conflito e tudo ocorre normalmente mesmo tendo sido feito alterações nas duas brances
+
+    # Conflict (Conflito)
+        - Outro caso é quando as duas branches alterarão um mesmo arquivo, entãpo qundo o git tenta fazer commit do merge e própio merge há um conflito porque os dois lados alterarão o mesmo arquivo, então temos que resolver o conflito mudando o arquivo em questão e depois fazer um novo commit e depois executar o merge.
+
+- Para criar uma nova branch usa-se o comando: git branch nome-da-branch
+- Para visuzalizar as brnches: git branch
+- Para mudar-se de branch: git checkout nome-da-branch
+- Para criar uma branch e mudar para ela automáticamente: git checkout -b nome-da-branch
+
+-Para realizar o merge:
+   - Musa-se para a branch Master se estivermos em outra 
+   - A segyir, utiliza-se o comando: git merge nova-branch
+   - Se não haver um mesmo arquivo aletrado então será o merge "Fast Foward"
+
+- Para excuir uma branch: git branch -d nome-da-branch

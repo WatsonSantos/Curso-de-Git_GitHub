@@ -22,6 +22,8 @@ _ Fazer o commit: git commit -m "adição do arquivo x"
 ## Histórico dos arquivos criados
 
 _ Para ver os históricos: git log
+    - Ou: git log --graph (Um gráfico de histórico)
+    - Ou: git log --graph --oneline (Gráfico com asterístico de cada commit)
 _ Capturar um estado de um arquivo baseando no seu commit:
     1 - Utilizar o comando 'git init' para ver so histórico
     2- Copiar o código do commit desejado
