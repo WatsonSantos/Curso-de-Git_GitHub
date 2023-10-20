@@ -13,7 +13,7 @@ Ao criar um novo repositório a única branch é a Master
     - Neste caso, houve commit nas duas branches, e o git faz um novo comimite do merge mesclando as duas branches mas sem nenhum conflito e tudo ocorre normalmente mesmo tendo sido feito alterações nas duas brances
 
     # Conflict (Conflito)
-        - Outro caso é quando as duas branches alterarão um mesmo arquivo, entãpo qundo o git tenta fazer commit do merge e própio merge há um conflito porque os dois lados alterarão o mesmo arquivo, então temos que resolver o conflito mudando o arquivo em questão e depois fazer um novo commit e depois executar o merge.
+        - Outro caso é quando as duas branches alterarão um mesmo arquivo, então quando o git tenta fazer commit do merge e própio merge há um conflito porque os dois lados alterarão o mesmo arquivo, então temos que resolver o conflito mudando o arquivo em questão e depois fazer um novo commit e depois executar o merge.
 
 - Para criar uma nova branch usa-se o comando: git branch nome-da-branch
 - Para visuzalizar as brnches: git branch
@@ -21,8 +21,8 @@ Ao criar um novo repositório a única branch é a Master
 - Para criar uma branch e mudar para ela automáticamente: git checkout -b nome-da-branch
 
 -Para realizar o merge:
-   - Musa-se para a branch Master se estivermos em outra 
-   - A segyir, utiliza-se o comando: git merge nova-branch
+   - Muda-se para a branch Master se estivermos em outra 
+   - A seguir, utiliza-se o comando: git merge nova-branch
    - Se não haver um mesmo arquivo aletrado então será o merge "Fast Foward"
 
 - Para excuir uma branch: git branch -d nome-da-branch

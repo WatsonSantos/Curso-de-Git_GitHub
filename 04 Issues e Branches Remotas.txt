@@ -1,0 +1,35 @@
+### ISSUES
+
+    #INTRODUÇÃO
+
+As issues server para duas coisas principalmente:
+
+=> Rastreio de Bugs:
+
+Criamos issues para informar erros existentes nos projetos e para acompanharmos a resolução desses erros.
+
+=> Sugerir novas Features para o projeto
+
+Contém os históricos de todos os passos até se chegar ao desenvolvimento da feature ou a resolução do bug.
+
+    #Issues e Branches Remotas
+
+Para criar um histórico das resoluções ligadas à determinada issue, na parte final de um commit devemos indicar o o índice, o número da issues corrspondente.
+  Ex: git commit -m "core(contact page) #2"
+
+#2 Indicca que este commit é para a issue 2, ou seja, #2
+
+E para fechar a issue pode demos usar: git commit -m "core(contact page) closes #2", se no caso este seja o último commmit desta issue.
+
+
+    #Issues em Labels
+
+As labels são criadas e vinculadas às issues para serem melhores identificadas quandos se tem muitas issues.
+Existe labels no github mas podemos criar nosssas labels personlizadas.
+
+
+    #Issues com citações de utilizadotres e emails
+
+Ao criar uma issue em um repositório de outro utilizador no github, quando o dono do tepositório responde à mensagem da issue um emeail é enviado à pessoa que criou a issue pedindo algo. E apessoa pode mesmo responder o email sem entrar no github que toda a conversa estrará no histórico da issue.
+
+

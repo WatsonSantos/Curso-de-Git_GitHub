@@ -25,7 +25,7 @@ _ Para ver os históricos: git log
     - Ou: git log --graph (Um gráfico de histórico)
     - Ou: git log --graph --oneline (Gráfico com asterístico de cada commit)
 _ Capturar um estado de um arquivo baseando no seu commit:
-    1 - Utilizar o comando 'git init' para ver so histórico
+    1 - Utilizar o comando 'git log' para ver so histórico
     2- Copiar o código do commit desejado
     3 - Capturando o estado desejado: git checkout código do commit (Nesse momento, só se consegue ver no log o commit atual).
     4 - A seguir, para voltar ao estado atual dos commit: git checkout master (ou main se for o caso). Assim pode-se ver todos históricos dos comites novamente.
